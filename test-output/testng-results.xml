@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34453" started-at="2018-10-04T10:06:02Z" finished-at="2018-10-04T10:06:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34453" started-at="2018-10-04T10:06:02Z" finished-at="2018-10-04T10:06:37Z">
+      <class name="com.TestCases.LoginTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TestCases.LoginTestCase@57baeedf]" name="setUp" is-config="true" duration-ms="4857" started-at="2018-10-04T10:06:02Z" finished-at="2018-10-04T10:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.TestCases.LoginTestCase.LoginTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.TestCases.LoginTestCase@57baeedf]" name="LoginTest" duration-ms="28694" started-at="2018-10-04T10:06:07Z" finished-at="2018-10-04T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestCases.LoginTestCase@57baeedf]" name="tearDown" is-config="true" duration-ms="852" started-at="2018-10-04T10:06:36Z" finished-at="2018-10-04T10:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginTestCase.LoginTest()[pri:0, instance:com.TestCases.LoginTestCase@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.LoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
